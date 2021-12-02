@@ -28,7 +28,7 @@ module.exports = {
         }
 
     },
-    user: (req, res) => {
+    userInfo: (req, res) => {
         res.render('user', {
             colorFondo: req.session.user.colorFondo,
             nombre: req.session.user.nombre,
